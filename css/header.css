@@ -1,0 +1,177 @@
+.logo img {
+    width: 20%;
+}
+
+
+
+header {
+    background-color: aqua;
+}
+
+/*DROPDOWN*/
+
+
+
+@media only screen and (min-width: 300px) {
+    .menu {
+        text-align: right;
+    }
+    #menu-wrapper ul li {
+        position: relative;
+    }
+
+
+    #menu-wrapper li {
+        list-style-type: none;
+    }
+    #menu-wrapper ul li ul {
+        display: none;
+        /*position: absolute;*/
+
+        text-align: center;
+        background-color: aqua;
+        padding: 10px;
+    }
+
+    #menu-wrapper ul li ul li {
+        width: 180px;
+    }
+
+
+    #menu-wrapper ul li ul li a {
+        padding: 12px 14px;
+    }
+
+    #menu-wrapper ul li:hover ul {
+        z-index: 1;
+        display: grid;
+        justify-content: right;
+    }
+
+    #menu-wrapper ul li a {
+        display: block;
+        font-family: Arial, serif;
+        font-size: 24px;
+        padding: 24px 14px;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    #menu-wrapper ul li ul li a   {
+        background-color: antiquewhite;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .menu {
+        text-align: right;
+    }
+    .logo {
+        float: left;
+    }
+    #menu-wrapper {
+        text-align: right;
+    }
+
+    #menu-wrapper>ul>li {
+        /*position: relative;*/
+        /*float: left;*/
+        display: inline-block;
+        list-style-type: none;
+    }
+    #menu-wrapper ul li {
+        position: relative;
+        text-align: left;
+
+    }
+
+
+    #menu-wrapper li {
+        list-style-type: none;
+    }
+    #menu-wrapper ul li ul {
+        display: none;
+        position: absolute;
+        background-color: aqua;
+        padding: 10px;
+    }
+
+    #menu-wrapper ul li ul li {
+        width: 180px;
+    }
+
+
+    #menu-wrapper ul li ul li a {
+        padding: 12px 14px;
+    }
+
+    #menu-wrapper ul li:hover ul {
+        display: block;
+    }
+
+    #menu-wrapper ul li a {
+        display: block;
+        font-family: Arial, serif;
+        font-size: 24px;
+        padding: 24px 14px;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    #menu-wrapper ul li ul li a:hover    {
+        background-color: antiquewhite;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .menu {
+        text-align: center;
+    }
+    #menu-wrapper ul li {
+        position: relative;
+    }
+
+
+    #menu-wrapper li {
+        list-style-type: none;
+    }
+    #menu-wrapper ul li ul {
+        display: none;
+        /*position: absolute;*/
+
+        text-align: center;
+        background-color: aqua;
+        padding: 10px;
+    }
+
+    #menu-wrapper ul li ul li {
+        width: 180px;
+    }
+
+
+    #menu-wrapper ul li ul li a {
+        padding: 12px 14px;
+    }
+
+    #menu-wrapper ul li:hover ul {
+        display: grid;
+        justify-content: center;
+    }
+
+    #menu-wrapper ul li a {
+        display: block;
+        font-family: Arial, serif;
+        font-size: 24px;
+        padding: 24px 14px;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    #menu-wrapper ul li ul li a   {
+        background-color: antiquewhite;
+    }
+}

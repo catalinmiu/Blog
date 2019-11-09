@@ -1,0 +1,17 @@
+p{
+    font-family: Arial, serif;
+    font-size: 1.1rem;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+span {
+    color: #f00;
+}

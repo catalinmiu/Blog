@@ -1,0 +1,14 @@
+
+
+/*blog*/
+
+.article {
+    padding: 4%;
+    /*padding-top: 3%;*/
+    text-align: center;
+}
+
+audio {
+    z-index: -1;
+}
+
