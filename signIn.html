@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="https://png.pngtree.com/element_pic/00/16/07/115783931601b5c.jpg"/>
+
+
+</head>
+<body>
+<header>
+    <!--        Logo section-->
+    <div class="logo">
+        <a href="index.html">
+            <img src="https://png.pngtree.com/element_pic/00/16/07/115783931601b5c.jpg" alt="logo"/>
+        </a>
+    </div>
+    <div id="menu-wrapper">
+        <ul class="menu">
+            <!--                <li><a href="index.html">Home</a></li>-->
+            <li><a href="index.html">Posts</a>
+                <ul>
+                    <li><a href="article1.html">Post1</a></li>
+                    <li><a href="article2.html">Post2</a></li>
+                    <li><a href="article3.html">Post3</a></li>
+                </ul>
+            </li>
+            <li><a href="about%20us.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+                <form class="form-horizontal">
+                    <fieldset>
+                        <legend class="text-center">Sign up</legend>
+                        <div class="signInInputs">
+
+                        </div>
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Your E-mail</label>
+                            <div class="col-md-9" id="emailInput">
+                            </div>
+                        </div>
+
+                        <!-- Password input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Password</label>
+                            <div class="col-md-9" id="passwordInput">
+                            </div>
+                        </div>
+
+                        <!-- Form actions -->
+                        <div class="form-group">
+                            <div class="col-md-12 text-right">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="verifyLoginData()">Sign IN</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<hr/>
+<div class="footer">
+    <p>&copy; 2019 MIU<p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="js/signIn.js"></script>
+</body>
+</html>
